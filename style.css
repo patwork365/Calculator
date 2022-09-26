@@ -12,21 +12,22 @@
 .calculator {
   border: 2px double black;
 }
-.calculator__display-box {
-  display: inline-block;
-  -moz-column-span: 20;
-       column-span: 20;
-}
-.calculator #screen {
-  border-width: 30px;
-  border: 3px solid black;
-  width: 400px;
-  height: 100px;
-  display:inline-block;
-}
 .calculator__row1, .calculator__row2, .calculator__row3, .calculator__row4 {
   display: flex;
   padding: 0 30px;
+}
+
+.toprow {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#screen {
+  border: 3px solid black;
+  width: 600px;
+  height: 100px;
+  padding-right: 30px;
 }
 
 .buttons {
@@ -35,7 +36,19 @@
 }
 
 .buttons_o,
+#equal,
 .clear {
   background-color: orange;
   padding: 12px 28px;
+}
+
+.clear {
+  margin-bottom: 80px;
+}
+
+@media screen and (max-width: 1000px) {
+  .clear {
+    background-color: blue;
+    padding: 12px 28px;
+  }
 }/*# sourceMappingURL=style.css.map */
