@@ -5,6 +5,7 @@
   max-width: auto;
   margin: 20px;
   background: beige;
+  font-weight: bolder;
   padding: 5px;
   font-family: "Courier New", Courier, monospace;
 }
@@ -16,8 +17,7 @@
   display: flex;
   padding: 0 30px;
 }
-
-.toprow {
+.calculator__toprow {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -46,9 +46,18 @@
   margin-bottom: 80px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 900px) {
+  * {
+    background-color: lightcyan;
+  }
   .clear {
-    background-color: blue;
+    background-color: darkgray;
+    padding: 12px 28px;
+  }
+  .buttons_o,
+#equal,
+.clear {
+    background-color: darkgray;
     padding: 12px 28px;
   }
 }/*# sourceMappingURL=style.css.map */

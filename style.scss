@@ -5,6 +5,7 @@
     max-width: auto;
     margin: 20px;
     background: beige;
+    font-weight: bolder;
     padding: 5px;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -56,17 +57,20 @@ $font-click:beige;
         margin-bottom:80px;
     }
    
-    @media screen and (max-width: 1000px) {
+    @media screen and (max-width: 900px) {
+        *{
+            background-color: lightcyan;
+        }
         .clear{
-                background-color: blue;
+                background-color: darkgray;
                 padding:12px 28px;
             }
-        }
-        .buttons_o{
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
-            grid-template-rows: 150px;
-            gap:10px;
-        }
+        
+        .buttons_o,
+        #equal,
+        .clear{
+                background-color:  darkgray;
+                padding:12px 28px;
+            }
+    }
 
-        }
