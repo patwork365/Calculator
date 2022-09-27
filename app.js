@@ -16,18 +16,18 @@ let secondNumber;
 let Operator;
 
 
-    clear.addEventListener("click", (event) => {
-        screen.innerHTML = " ";
-        showing.innerHTML="";
-    });
+         clear.addEventListener("click", (event) => {
+            screen.innerHTML = " ";
+            showing.innerHTML="";
+        });
 
 
-    allButtons.forEach((number) => {
+        allButtons.forEach((number) => {
             number.addEventListener("click",(event)=>{
              screen.innerHTML += number.value;
              console.log (number.value);
             
-            })});
+        })});
             
         allButtons_o.forEach((ops) => {
             ops.addEventListener("click",(event)=>{

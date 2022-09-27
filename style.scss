@@ -46,22 +46,22 @@ $font-click:beige;
 
         }
  
-    .buttons{
-     padding:12px 28px;
-     font-weight: 300px;
-
-    }
-    .buttons_o,
-    #equal,
-    .clear{
-        background-color:  orange;
+        .buttons{
         padding:12px 28px;
-    }
+        font-weight: 300px;
 
-    .clear{
-        margin-bottom:80px;
-    }
-   
+        }
+        .buttons_o,
+        #equal,
+        .clear{
+            background-color:  orange;
+            padding:12px 28px;
+        }
+
+        .clear{
+            margin-bottom:80px;
+        }
+    
     @media screen and (max-width: 900px) {
         *{
             background-color: lightcyan;
