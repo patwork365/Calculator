@@ -19,14 +19,20 @@
 }
 .calculator__toprow {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.show {
+  align-content: center;
+  text-align: center;
 }
 
 #screen {
   border: 3px solid black;
-  width: 600px;
+  width: 490px;
   height: 100px;
+  font-size: 50px;
   padding-right: 30px;
 }
 
