@@ -53,21 +53,29 @@ clear.addEventListener("click", (event) => {
         const cal = () => {
         secondNumber=Number(secondNumber);
         firstNumber=Number(firstNumber);
+        let output;
         showing.innerHTML=`${firstNumber}${Operator}${secondNumber}`;
         if (Operator == '-'){
             screen.innerHTML= firstNumber - secondNumber;
         } else if (Operator == '+'){
             screen.innerHTML= firstNumber + secondNumber;
         } else if (Operator == '*'){
-            screen.innerHTML=firstNumber * secondNumber;
+            output= firstNumber - secondNumber;
+            screen.innerHTML=output.toFixed(2);
+            // screen.innerHTML=firstNumber * secondNumber;
         } else if (Operator == '-' ){
-            screen.innerHTML=firstNumber - secondNumber;
+            output= firstNumber - secondNumber;
+            screen.innerHTML=output.toFixed(2);
+            // screen.innerHTML=firstNumber - secondNumber.toFixed(2);
         } else if (Operator =="/"){
-            screen.innerHTML= firstNumber / secondNumber.toFixed(2);
+            output= firstNumber - secondNumber;
+            screen.innerHTML=output.toFixed(2);
+            // screen.innerHTML= firstNumber / secondNumber.toFixed(2);
         }
         else return 0 ;
         };
         eql.addEventListener ("click",cal);  
+
     
             // while (Operator != "=") {
             //     allButtons.forEach((number) => {
