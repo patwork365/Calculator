@@ -15,15 +15,11 @@ let firstNumber;
 let secondNumber;
 let Operator;
 
-// console.log(allButtons_o.values);
-// if (allButtons_o.values="C"){
-//     screen.innerHTML = " ";
-//     console.log(allButtons_o.values)
-// };
-clear.addEventListener("click", (event) => {
-    screen.innerHTML = " ";
-    showing.innerHTML="";
-});
+
+    clear.addEventListener("click", (event) => {
+        screen.innerHTML = " ";
+        showing.innerHTML="";
+    });
 
 
     allButtons.forEach((number) => {
@@ -77,24 +73,6 @@ clear.addEventListener("click", (event) => {
         eql.addEventListener ("click",cal);  
 
     
-            // while (Operator != "=") {
-            //     allButtons.forEach((number) => {
-            //         number.addEventListener("click",(event)=>{
-            //          screen.innerHTML += number.value;
-            // })})};    
-            // secondNumber=screen.innerHTML;
-            // console.log(secondNumber);
-    // console.log(Operator);
-        // operation.addEventListener("click",(event)=>{
-        //     screen.innerHTML += number.value;
-        //     console.log (number.value);
-        //     document.getElementById("#screen").innerHTML= number.value;
-        // });
-        // allButtons_o.addEventListener("click",(event) =>{
-    //         event.preventDefault();  
-    //         console.log("clicked");
-
-
     // with steph..... dont delete
 // const screen =document.querySelector("#screen");
     // allButtons.forEach((number) => {
