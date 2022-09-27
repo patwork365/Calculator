@@ -1,16 +1,10 @@
-// let results = "";
-
-// console.log(allButtons[0]);
-// allButtons[0].addEventListener("click",(event) =>{
-//     event.preventDefault();  
-//     // console.log("clicked");
 
 const allButtons=document.querySelectorAll(".buttons");
 const screen =document.querySelector("#screen");
 const clear = document.querySelector("#btn");
 const allButtons_o =document.querySelectorAll(".buttons_o");
 const eql =document.querySelector("#equal");
-const showing =document.querySelector("#show");
+const showingVal =document.querySelector("#show");
 let firstNumber;
 let secondNumber;
 let Operator;
@@ -18,7 +12,7 @@ let Operator;
 
          clear.addEventListener("click", (event) => {
             screen.innerHTML = " ";
-            showing.innerHTML="";
+            showingVal.innerHTML="";
         });
 
 
@@ -50,7 +44,7 @@ let Operator;
         secondNumber=Number(secondNumber);
         firstNumber=Number(firstNumber);
         let output;
-        showing.innerHTML=`${firstNumber}${Operator}${secondNumber}`;
+        showingVal.innerHTML=`${firstNumber}${Operator}${secondNumber}`;
         if (Operator == '-'){
             screen.innerHTML= firstNumber - secondNumber;
         } else if (Operator == '+'){
