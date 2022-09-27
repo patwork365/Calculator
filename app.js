@@ -19,7 +19,7 @@ let Operator;
         allButtons.forEach((number) => {
             number.addEventListener("click",(event)=>{
              screen.innerHTML += number.value;
-             console.log (number.value);
+            //  console.log (number.value);
             
         })});
             
@@ -28,9 +28,9 @@ let Operator;
             firstNumber=screen.innerHTML;
             screen.innerHTML =ops.value;
             Operator= ops.value;
-            console.log(Operator);
-            console.log(firstNumber);
-            setTimeout(screen.innerHTML ="",15000); 
+            // console.log(Operator);
+            // console.log(firstNumber);
+            // setTimeout(screen.innerHTML ="",15000); 
 
         })});
 
@@ -50,15 +50,11 @@ let Operator;
         } else if (Operator == '+'){
             screen.innerHTML= firstNumber + secondNumber;
         } else if (Operator == '*'){
-            output= firstNumber - secondNumber;
+            output= firstNumber * secondNumber;
             screen.innerHTML=output.toFixed(2);
             // screen.innerHTML=firstNumber * secondNumber;
-        } else if (Operator == '-' ){
-            output= firstNumber - secondNumber;
-            screen.innerHTML=output.toFixed(2);
-            // screen.innerHTML=firstNumber - secondNumber.toFixed(2);
         } else if (Operator =="/"){
-            output= firstNumber - secondNumber;
+            output= firstNumber / secondNumber;
             screen.innerHTML=output.toFixed(2);
             // screen.innerHTML= firstNumber / secondNumber.toFixed(2);
         }
@@ -75,4 +71,10 @@ let Operator;
     //          console.log (number.value);
     //          document.getElementById("result").innerHTML= number.value;
     //         })});
+
+
+// } else if (Operator == '-' ){
+//     output= firstNumber - secondNumber;
+//     screen.innerHTML=output.toFixed(2);
+//     // screen.innerHTML=firstNumber - secondNumber.toFixed(2);
 

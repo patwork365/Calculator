@@ -20,7 +20,7 @@ $font-click:beige;
         &__row3,
         &__row4{
             display: flex;
-            padding: 0 10px;
+            padding: 0 5px;
         }
     
         &__toprow{
@@ -47,7 +47,7 @@ $font-click:beige;
         }
  
         .buttons{
-        padding:12px 28px;
+        padding:12px 15px;
         font-weight: 300px;
 
         }
@@ -55,7 +55,7 @@ $font-click:beige;
         #equal,
         .clear{
             background-color:  orange;
-            padding:12px 28px;
+            padding:12px 15px;
         }
 
         .clear{
@@ -68,14 +68,14 @@ $font-click:beige;
         }
         .clear{
                 background-color: darkgray;
-                padding:12px 28px;
+                padding:12px 15px;
             }
         
         .buttons_o,
         #equal,
         .clear{
                 background-color:  darkgray;
-                padding:12px 28px;
+                padding:12px 15px;
             }
     }
 

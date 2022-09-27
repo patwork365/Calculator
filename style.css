@@ -15,7 +15,7 @@
 }
 .calculator__row1, .calculator__row2, .calculator__row3, .calculator__row4 {
   display: flex;
-  padding: 0 10px;
+  padding: 0 5px;
 }
 .calculator__toprow {
   display: flex;
@@ -37,7 +37,7 @@
 }
 
 .buttons {
-  padding: 12px 28px;
+  padding: 12px 15px;
   font-weight: 300px;
 }
 
@@ -45,7 +45,7 @@
 #equal,
 .clear {
   background-color: orange;
-  padding: 12px 28px;
+  padding: 12px 15px;
 }
 
 .clear {
@@ -58,12 +58,12 @@
   }
   .clear {
     background-color: darkgray;
-    padding: 12px 28px;
+    padding: 12px 15px;
   }
   .buttons_o,
 #equal,
 .clear {
     background-color: darkgray;
-    padding: 12px 28px;
+    padding: 12px 15px;
   }
 }/*# sourceMappingURL=style.css.map */
