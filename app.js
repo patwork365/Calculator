@@ -57,15 +57,15 @@ let Operator;
             screen.innerHTML= firstNumber + secondNumber;
         } else if (Operator == '*'){
             output= firstNumber * secondNumber;
-            screen.innerHTML=output.toFixed(2);
+            screen.innerHTML=output.toFixed(1);
             // screen.innerHTML=firstNumber * secondNumber;
         } else if (Operator == '-' ){
             output= firstNumber - secondNumber;
-            screen.innerHTML=output.toFixed(2);
+            screen.innerHTML=output.toFixed(1);
             // screen.innerHTML=firstNumber - secondNumber.toFixed(2);
         } else if (Operator =="/"){
             output= firstNumber / secondNumber;
-            screen.innerHTML=output.toFixed(2);
+            screen.innerHTML=output.toFixed(1);
             // screen.innerHTML= firstNumber / secondNumber.toFixed(2);
         }
         else return 0 ;
